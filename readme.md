@@ -21,8 +21,8 @@ JSFtp = require('jsftp-lsr')(JSFtp);
 
 var path = 'public_html/deploy/foo';
 
-ftp.lsr(path, function (err) {
-	console.log('Created path:', path);
+ftp.lsr(path, function (err, data) {
+	console.log('File structure', JSON.stringify(data, null, 2));
 });
 ```
 

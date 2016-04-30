@@ -1,0 +1,42 @@
+{
+  "name": "jsftp-mkdirp",
+  "version": "1.0.0",
+  "description": "Recursively get nested directories with jsftp, like ls -R",
+  "license": "MIT",
+  "repository": "firerap/jsftp-lsr",
+  "author": {
+    "name": "Ivan Drondov",
+    "email": "idrondov@gmail.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "ftp",
+    "jsftp",
+    "file",
+    "transfer",
+    "protocol",
+    "server",
+    "client",
+    "ls",
+    "deploy",
+    "deployment",
+    "recursive"
+  ],
+  "dependencies": {
+    "async": "2.0.0-rc.3"
+  },
+  "devDependencies": {
+    "ftp-test-server": "0.0.2",
+    "jsftp": "^1.3.1",
+    "mocha": "*",
+    "path-exists": "^2.0.0"
+  }
+}

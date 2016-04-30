@@ -1,5 +1,5 @@
 {
-  "name": "jsftp-mkdirp",
+  "name": "jsftp-lsr",
   "version": "1.0.0",
   "description": "Recursively get nested directories with jsftp, like ls -R",
   "license": "MIT",
